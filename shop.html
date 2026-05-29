@@ -5,9 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop | Nubian Cosmetics Sa</title>
 </head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #111;
+  }
+</style>
 <body>
     <header>
-        <h1>Our Shop</h1>
+        <h1 style="color: rgb(16, 232, 214, 0.902);">Our Shop</h1>
         <nav>
          <ul>
     <li><a href="index.html">Home</a></li>
@@ -21,9 +53,9 @@
 
     <main>
      <section>
-        <h2>Products</h2>
+        <h2 style="color: rgb(16, 232, 214, 0.902);">Products</h2>
         <h3>Have you heard about our 3 new palettes coming out?</h3>
-        <h4> Coastal chic, Love core and.. Soft girl! we know you guys are going to absolutely love these.</h4>
+        <h4> Coastal chic, Love core and.. Soft girl! we know you guys are going to absolutely love these!</h4>
         <p>Love at first palette? 100% a thing. these 3 new beauties will give you an extra boost in confidence and will defineitly make someone fall in love with you!</p>
      </ul>
      </section>
@@ -32,12 +64,29 @@
      <!--Main Content-->
      <main>
         <section>
-            <h2>Our products</h2>
-            <img src="images/foundation,jpg" alt="Foundation product">
-            <img src="images/lipstick.jpg" alt="Lipstick product">
-            <img src="images/eyeshadow.jpg" alt="Eyeshadow palette">
+            <h2 style="color: rgb(16, 232, 214, 0.902);">Our products</h2>
+            <img src="images/product.jpg.jpg" alt="Foundation product">
+            <img src="images/lipstick.jpg.jpg" alt="Lipstick product">
+            <img src="images/eyeshadow.jpg.jpg" alt="Eyeshadow palette">
+            <p>Discover our range of high-quality cosmetics designed to celebrate all skin tones. From foundations to lipsticks, our products are crafted with care to enhance your natural beauty and boost your confidence.</p>
+            <p>Shop now and experience the perfect blend of inclusivity, quality, and style with Nubian Cosmetics Sa.</p>
+            <p>Visit our shop to explore our full range of products and find your perfect match today!</p>
             </section>
             </main>
+
+            <form action="submit_order.html" method="post">
+                <h2 style="color: rgb(16, 232, 214, 0.902);">Place Your Order</h2>
+                <label for="product">Select Product:</label>
+                <select id="product" name="product">
+                    <option value="foundation">Foundation</option>
+                    <option value="lipstick">Lipstick</option>
+                    <option value="eyeshadow">Eyeshadow Palette</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+                <button type="submit">Submit Order</button>
 
 
      <footer>
