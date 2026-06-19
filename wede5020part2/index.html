@@ -1,18 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NuBian Cosmetics — Luxury made local</title>
+  <meta name="description" content="NuBian Cosmetics — locally made luxury skincare and beauty products. Learn about our story, shop online, and read our blog." />
+  <meta name="theme-color" content="#8B4513" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:title" content="NuBian Cosmetics" />
+  <meta property="og:description" content="Luxury made local — skincare and beauty products from NuBian Cosmetics." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nubiancosmeticssa.com" />
 </head>
 <body>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-<a href="blog.html">Blog</a>
-<a href="shop.html">Shop</a>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">NuBian Cosmetics</h1>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<h1>Welcome to the Home Page</h1>
-<h1>Luxuary made local</h1>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Welcome to NuBian Cosmetics</h2>
+        <p class="tagline">Luxury made local</p>
+        <p class="hero-text">Discover our locally made beauty and skincare products crafted with care and passion.</p>
+        <a href="shop.html" class="cta-button">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="feature-card">
+          <h3>Locally Made</h3>
+          <p>All our products are crafted right here, supporting local artisans and communities.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Luxury Quality</h3>
+          <p>Premium ingredients and meticulous attention to detail in every product.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Cruelty-Free</h3>
+          <p>We're committed to ethical beauty without compromising on quality.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> NuBian Cosmetics. All rights reserved.</p>
+      <p>
+        <a href="privacy.html">Privacy Policy</a> | 
+        <a href="terms.html">Terms of Service</a> | 
+        <a href="contact.html">Contact Us</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
