@@ -4,113 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog | Nubian Cosmetics Sa</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      
+      header {
+        background-color: #f8f8f8;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      header h1 {
+        color: #19cfba;
+        padding: 10px;
+        margin: 0;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      nav ul li {
+        float: left;
+      }
+      
+      nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      
+      nav ul li a:hover {
+        background-color: #111;
+      }
+      
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      main > h1 {
+        color: #19cfba;
+        padding: 10px 0;
+        text-align: center;
+      }
+      
+      article {
+        margin-bottom: 40px;
+        padding: 20px;
+        border-left: 4px solid #19cfba;
+        background-color: #f9f9f9;
+      }
+      
+      article h2 {
+        color: #19cfba;
+        padding: 0;
+        margin-top: 0;
+      }
+      
+      article h3 {
+        color: #19cfba;
+      }
+      
+      article img {
+        width: 100%;
+        height: auto;
+        margin: 15px 0;
+        border-radius: 5px;
+      }
+      
+      article p {
+        color: #333;
+      }
+      
+      article ul {
+        color: #333;
+      }
+      
+      article ul li {
+        margin-bottom: 10px;
+      }
+      
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+      
+      @media (max-width: 768px) {
+        nav ul li {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
 </head>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: #f8f8f8;
-    padding: 20px;
-    text-align: center;
-  }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  nav ul li {
-    float: left;
-  }
-  nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  nav ul li a:hover {
-    background-color: #111;
-  }
-</style>
 <body>
-  <!--Header-->
+  <!-- Header -->
   <header>
-    <h1 style="color: #19cfba; padding: 10px;">Nubian Cosmetics Sa</h1>
+    <h1>Nubian Cosmetics Sa</h1>
     <nav>
       <ul>
-  <li><a href="index.html">Home</a></li> 
-  <li><a href="shop.html">Shop</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="blog.html">Blog</a></li>
-  <li><a href="contact">Contact</a></li>
-  </ul>
-  </nav>
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!--Main content-->
+  <!-- Main Content -->
   <main class="blog">
-    <h1 style="color: #19cfba; padding: 10px;">Our Blog</h1>
+    <h1>Our Blog</h1>
     
-      <article>
-        <h2 style="color: #19cfba;padding: 10px;">Glow with confidence:Everday Beauty Tips</h2>
-        <img src="images/pallet.jpg.jpg" alt="Everyday Beauty Tips" width="100%" height="auto">
-        <p>Discover simple ways to highlight your natural beauty and boost your confidence!From earthly tones to bold shades, our tips help you shine everyday</p>
-          </article>
-  
-          <article>
-            <h2 style="color: aqua; padding: 10px;">New Product Launch: Bantu Palette</h2>
-            <img src="images/bantupalette.jpg" alt="Bantu Palette" width="100%" height="auto">
-            <p>Introducing the Bantu Palette, a celebration of rich, earthy tones inspired by African heritage. This versatile palette offers a range of shades perfect for creating stunning looks that embrace your unique beauty.</p>
-        </article>
+    <article>
+      <h2>Glow with Confidence: Everyday Beauty Tips</h2>
+      <img src="images/pallet.jpg" alt="Everyday Beauty Tips">
+      <p>Discover simple ways to highlight your natural beauty and boost your confidence! From earthy tones to bold shades, our tips help you shine every day. Whether you're a makeup novice or a seasoned beauty enthusiast, these everyday beauty tips will help you feel confident and radiant.</p>
+    </article>
+
+    <article>
+      <h2>New Product Launch: Bantu Palette</h2>
+      <img src="images/bantupalette.jpg" alt="Bantu Palette">
+      <p>Introducing the Bantu Palette, a celebration of rich, earthy tones inspired by African heritage. This versatile palette offers a range of shades perfect for creating stunning looks that complement all skin tones. The Bantu Palette features 16 richly pigmented colors, from warm bronzes to deep burgundies, giving you endless possibilities for creative expression.</p>
+    </article>
+
+    <article>
+      <h2>Another Blog Post</h2>
+      <p>Have you heard about the new Bantu palette that is coming out? Learn more about it in our latest blog post! This exciting new addition to our cosmetics line celebrates the beauty of African heritage with carefully curated shades that work beautifully together.</p>
+    </article>
+
+    <article>
+      <h2>Makeup Tutorials</h2>
+      <img src="images/tutorial.jpg" alt="Makeup Tutorial image">
+      <p>Step-by-step guide to achieving a flawless look and long-lasting makeup! Follow along with our expert makeup artists as they demonstrate professional techniques you can recreate at home. From base application to finishing touches, we cover all the essentials.</p>
+    </article>
+
+    <article>
+      <h2>Skincare Tips</h2>
+      <p>Skincare tips and tricks on how to prepare your skin before applying makeup. Check out our basic guide for beginner makeup tutorials!</p>
+      <img src="images/skincare.jpg" alt="Skincare tips image">
+      <p>Learn how to take care of your skin and avoid breakouts with our expert advice. Skincare before makeup is essential because it creates a smooth, hydrated canvas that helps makeup last longer and look better throughout the day.</p>
       
+      <h3>Why Skincare Matters?</h3>
+      <ul>
+        <li><strong>Hydration:</strong> Moisturizing your skin ensures it stays hydrated, preventing dryness and flakiness that can make makeup look uneven.</li>
+        <li><strong>Longevity:</strong> Properly prepped skin allows makeup to adhere better, helping it last throughout the day without fading or smudging.</li>
+        <li><strong>Protection:</strong> A good skincare routine creates a barrier that protects your skin from potential irritation caused by makeup products.</li>
+      </ul>
+    </article>
+  </main>
 
-        <article>
-<<<<<<< HEAD
-          <h3>Another Blog post</h3>
-          <p>Have you heard about the new Bantu palette that is coming out this winter?</p>
-=======
-          <h2 style="color: #19cfba; padding: 10px;">Another Blog post</h2>
-          <p>Have you heard about the new Bantu palette that is coming out? learn more about it in our latest blog post!</p>
->>>>>>> 67a3e25 (Upload website files and styles)
-          </article>
-        </section>
-        </main>
-
-        <!--Main Content-->
-        <main>
-          <section>
-            <h2 style="color: #19cfba; padding: 10px;">Our Blog</h2>
-            <article>
-              <h3 style="color: #19cfba;">Makeup Tutorials</h3>
-              <img src="images/tutorial.jpg.jpg" alt="Makeup Tutorial image">
-              <p>Step-by-step guide to achieving a flawless look and long lasting face beat!</p>
-              </article>
-
-              <article>
-                <h2 style="color: #19cfba;">Skincare Tips</h2>
-                <h3>Skincare Tips and tricks on how to prepare your skin before applying makeup.</h3>
-                <h3>Check out our basic guide for beginner makeup toutorials!</h3>
-                <img src="images/skincare.jpg.jpg" alt="Skincare tips image" width="100%" height="auto">
-                <p>Learn how to take care of your skin and avoide brakouts with our expert advise. skincare before makeup is essential because it creates smooth, hydrated canvas, helps makeup last longer, and protects your skin from irritation or clogged pores. Without proper prep, makeup can look patchy, cakey or even fade quickly</p>
-                <h3>Why Skincare Matters?</h3>
-                <ul>
-                  <li>Hydration: Moisturizing your skin ensures it stays hydrated, preventing dryness and flakiness that can make makeup look uneven.</li>
-                  <li>Longevity: Properly prepped skin allows makeup to adhere better, helping it last throughout the day without fading or smudging.</li>
-                  <li>Protection: A good skincare routine creates a barrier that protects your skin from potential irritation caused by makeup products.</li>
-                </ul>
-                </article>
-                </section>
-                </main>
-
-        <!--Footer-->
-        <footer>
-          <p>&copy; 2026 Nubian Cosmetics Sa</p>
-          </footer>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Nubian Cosmetics Sa. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
